@@ -9,6 +9,6 @@
 	</head>
 
 	<body>
-		<img src="../HTML Documents/Images/Dog.jpg" alt="Dog Picture" width="500" height="600">
+		<img src="Dog.jpg" alt="Dog Picture" width="500" height="600">
 	</body>
 	
