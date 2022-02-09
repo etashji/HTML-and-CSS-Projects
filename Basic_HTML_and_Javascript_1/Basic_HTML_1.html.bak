@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<p><b><font face="Arial" color="blue">This is the color blue.</font></p>
+		<p><i><font size="7" color="ff0000">This is the color red.</font></p>
+		<p><u>This is underlined.</p>
+		<img sc="./Images/puppy.jpg" alt="Puppy Picture" width="500" height="600"
+	</body>
+</html>
