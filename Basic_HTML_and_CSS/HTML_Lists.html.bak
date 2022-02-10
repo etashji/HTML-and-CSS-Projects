@@ -1,0 +1,18 @@
+<!DOCTYPE>
+<html>
+	<body>
+		<link rel="stylesheet" type="text/css" href="CSS_Lists.css">
+		<ul>
+			<li>Arcade Israel Gannon</li>
+			<li>Craig Boone</li>
+			<li>Lily Bowen</li>
+			<li>Raul Alfonso Tejada</li>
+		</ul>
+		<ol>
+			<li>Arcade Israel Gannon</li>
+			<li>Craig Boone</li>
+			<li>Lily Bowen</li>
+			<li>Raul Alfonso Tejada</li>
+		</ol>
+	</body>
+</html>
