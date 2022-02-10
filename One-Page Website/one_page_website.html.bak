@@ -1,0 +1,117 @@
+<!DOCTYPE>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Doggoland!</title>
+		
+	</head>
+	<body>
+	
+		<!--NAV -->
+		<div>
+			<div>
+				<ul>
+					<a href="#home" id="link"><li>HOME</li></a>
+					<a href="#gallery"><li>GALLERY</li></a>
+					<a href="#contact"><li>CONTACT US!</li></a>
+					<a href="#notice"><li>IMPORTANT!</li></a>
+				</ul>
+			</div>
+		</div>
+		<!--END NAV -->
+		
+		<!--HOME -->
+		<div id="home">
+			<div>
+				<div>
+					<span>Welcome to Doggoland!</span>
+					<p>Here we have pictures of doggos! (and maybe a cat.)</p>
+				</div>
+			</div>
+		</div>
+		<!--END HOME -->
+		
+		<!-- GALLERY -->
+		<section>
+			<div id="gallery">
+				<h1>Gallery</h1>
+				<div>
+				
+				<!-- PHOTO-CONTAINER 1 -->
+					<div>
+						<div>
+							<img src="./image/thumb/thumbnail_1.jpg" alt="Corgi" style="width:600px;height:600px;">
+							</div>
+						</div>
+					</div>
+				<!--END PHOTO-CONTAINER 1 -->
+
+				<!-- PHOTO-CONTAINER 2 -->
+					<div>
+						<div>
+							<img src="./image/thumb/thumbnail_2.jpg" alt="Rocky" style="width:600px;height:600px;">
+							</div>
+						</div>
+					</div>
+				<!--END PHOTO-CONTAINER 2 -->
+				
+				<!-- PHOTO-CONTAINER 3 -->
+					<div>
+						<div>
+							<img src="./image/thumb/thumbnail_3.jpg" alt="Cat" style="width:600px;height:600px;">
+							</div>
+						</div>
+					</div>
+				<!--END PHOTO-CONTAINER 3 -->
+				
+				<!-- VIDEO-CONTAINER 1 -->
+					<div>
+						<div>
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/ah6fmNEtXFI" 
+							title="YouTube video player" frameborder="0" 
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+							picture-in-picture" allowfullscreen></iframe>
+							</div>
+						</div>
+					</div>
+				<!--END VIDEO-CONTAINER 1 -->
+			<!--END GALLERY -->
+			
+			<!-- CONTACT US! -->
+			<section>
+				<div id="contact">
+					<div>
+						<h1>Contact Us!</h1>
+						<div>
+							<h2><span>Contact us to see more doggos!</span>
+							<div>
+								<form action="" method="post">
+									<input class="rsvp" type="text" value="First Name">
+									<input class="rsvp" type="text" value="Last Name">
+									<input class="rsvp" type="text" value="Phone Number">
+									<input class="rsvp" type="text" value="Email">
+									<div class="form-spacer">
+										<label class="terms">Terms and Conditions</label>
+									</div>
+									<div>
+										<input type="submit" value="Submit">
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!--END CONTACT US! -->
+			
+			<!--FOOTER -->
+			<div>
+				I have no intention of actually contacting you.<br>
+				I only made this website because a crazy woman wanted me to.<br>
+				Please help, she locked me in the basement!
+			</div>
+			<!-- END FOOTER -->
+			
+	</body>
+</html>
+			

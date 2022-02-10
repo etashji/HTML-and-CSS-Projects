@@ -1,0 +1,26 @@
+Topic: Doggos!
+
+Nav Section
+
+Home Page:
+Heading: Welcome to Doggoland!
+Paragraph: Here we only have pictures and videos of doggos! (and maybe a cat.)
+
+Gallery:
+Look at our pictures of doggos!
+(include 3 pictures)
+We even have a video!
+(include 1 video)
+
+Contact Us!
+If you would like to see more pictures and videos, feel free to contact us!
+Form:
+First Name
+Last Name
+Phone Number
+Email
+
+Footer:
+We will not actually get back to you so the above form is completely irrelevant.
+Also, I only made this website at the request of my girlfriend.
+(She's locked me in the basement. Help!)
