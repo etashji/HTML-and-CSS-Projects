@@ -278,8 +278,13 @@ section {
     box-shadow: 0 0 18px rgba(100,65,0,.8);
 }
 
+.contact-me-text {
+    padding-left: 48px;
+}
+
 .form-spacer {
     padding: 30px 39px;
+    text-align: right;
 }
 
 .terms {
@@ -294,7 +299,6 @@ section {
     position: relative;
     display: inline;
     float: right;
-    margin-top:13%;
 }
 
 .terms:hover {
