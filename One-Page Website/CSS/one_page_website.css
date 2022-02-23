@@ -1,12 +1,16 @@
 body {
     font-family: "Times New Roman", Times, serif;
-    font-size: 24px
+    font-size: 24px;
+    margin: 0;
 }
 input {
     width: 100%;
     margin: 8px 0;
     border: 2px solid red;
     border-radius: 4px;
+}
+*{
+    box-sizing: border-box;
 }
 
 .row > .column {
@@ -129,8 +133,8 @@ img.demo {
 
 img.hover-shadow {
     transition: 0.3s;
-    height: 500px;
-    width: 500px;
+    height: 100%;
+    width: 100%;
 }
 
 .hover-shadow:hover {

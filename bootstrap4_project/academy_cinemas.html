@@ -1,0 +1,261 @@
+<!DOCTYPE html> <!--This specifies the doctype-->
+<html lang="en"> <!--This specifies the language-->
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8"> <!--This specifies the character set-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <!--This specifies the details of the viewport-->
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"> <!--This links the html to the bootstrap-->
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Academy Cinemas</title> <!--This gives the title of Academy Cinemas-->
+</head>
+
+<body>
+    
+    <!--NAV-->
+    <div class="container"> <!--This creates a container-->
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-info"> <!--This specifies and stylizes the navbar-->
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent"> <!--This specifies the navbar collapse and assigns an id-->
+                <ul class="navbar-nav mr-auto"> <!--This creates a list-->
+                    <li class="nav-item active"> <!--This creates an element of the list and assigns it as a nav item-->
+                        <a class="nav-link text-light" href="#About">About</a> <!--This links the nav link to the About section-->
+                    </li>
+                    <li class="nav-item active"> <!--This creates an element of the list and assigns it as a nav item-->
+                        <a class="nav-link text-light" href="#Showtimes">Showtimes</a> <!--This links the nav link to the Showtimes section-->
+                    </li>
+                    <li class="nav-item active"> <!--This creates an element of the list and assigns it as a nav item-->
+                        <a class="nav-link text-light" href="#Deals">Deals</a> <!--This links the nav link to the Showtimes section-->
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0"> <!--this describes the class for the form-->
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"> <!--This describes the input class-->
+                    <button class="btn btn-primary my-2 my-sm-0 text-light" type="submit">Search</button> <!--This adds the search button-->
+                </form>
+            </div>
+        </nav>
+    <!--/Nav-->
+
+    <!--Header-->
+        <div class="jumbotron jumbotron-fluid bg-info text-center"> <!--This adds the jumbotron class-->
+            <div class="container"> <!--This creates a container-->
+                <h1 class="display-4 text-light">Academy Cinemas</h1> <!--This adds the Academy Cinemas header-->
+                <p class="lead text-light">Sit back, relax, and enjoy the show....</p> <!--This adds the text under the header-->
+            </div>
+        </div>
+    <!--/Header-->
+    
+        <div class="container"> <!--This creates a container-->
+            <div class="row"> <!--This creats a "row" class-->
+                <div class="col-sm"> <!--This defines a row class-->
+                    
+                    <img class="img-fluid" src="./images/pdx.jpg" alt=""/> <!--This adds the Portland image-->
+
+                </div>
+                <div class="col-sm"> <!--This adds another column-->
+                    
+                    <h3 id="About">Accommodations</h3> <!--This is the column text-->
+                    <p>Located in beautiful Portland, Oregon's Pearl distrit, our reels have been spinning since 1959.</p>
+                    <p>Showing our guests a great time is our passion and seeing their smiles is our pleasure!</p>
+                    <P>All of our auditoriums are equipped with brand new Christie 3D&reg; sound systems!</P>
+                    <p>Relac in our extra-wide, plush cushioning recliners. Our seating arrangement is disability friendly &#9855;.</p>
+
+                </div>
+                <div class="col-sm"> <!--This adds another column-->
+
+                    <h3>Now Playing:</h3> <!--This adds the Now Playing heading-->
+                    <ul class="list-group"> <!--This creates a list-group-->
+                        <li class="list-group-item"> <!--This adds a list-group item-->
+                            <a class="nav-link" href="#">Kong: Skull Island</a> <!--This defines the item-->
+                        </li>
+                        <li class="list-group-item"> <!--This adds a list-group item-->
+                            <a class="nav-link" href="#">Ghost in the Shell</a> <!--This defines the item-->
+                        </li>
+                        <li class="list-group-item"><!--This adds a list-group item-->
+                            <a class="nav-link" href="#">Beauty and the Beast</a> <!--This defines the item-->
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--/About-->
+
+        <!-- showtimes -->
+        <h3>Showtimes:</h3> <!--This adds the Showtimes heading-->    
+            <div class="card-group" id="Showtimes"> <!--This creates the card-group-->
+                <div class="card"> <!--This adds a card-->
+                    <img class="card-img-top" src="./images/kongskullisland.jpg" alt="Kong Skull Island" height="250" width="500px"> <!--This puts an image in the card-->
+                    <div class="card-block"> <!--This adds a block for text to be filled in -->
+                        <h4 class="card-title">Kong: Skull Island</h4> <!--This and the below are the text in the block-->
+                        <p >A team of scientists explore an uncharted island in the Pacific,
+                            venturing into the domain of the mighty Kong, and msut fight to
+                            escape a primal Eden.</p><br>
+                        <span class="badge badge-pill badge-info">12:00pm</span> <!--This and below are the time badges-->
+                        <span class="badge badge-pill badge-info">1:30pm</span>
+                        <span class="badge badge-pill badge-info">3:00pm</span>
+                        <span class="badge badge-pill badge-info">5:30pm</span>
+                        <span class="badge badge-pill badge-info">7:00pm</span>
+                        <span class="badge badge-pill badge-info">9:30pm</span>
+                    </div>
+                </div>
+                <div class="card"> <!--The following code has the same notes as the card above-->
+                    <img class="card-img-top" src="./images/ghostintheshell.jpg" alt="Ghost in the Shell" height="250" width="500px">
+                    <div class="card-block">
+                        <h4 class="card-title">Ghost in the Shell</h4>
+                        <p>In the near future, Major Mila Killian is the first of her kind: a human saved
+                            from a terrible crash, who is cyber-enhanced to be a perfect soldier devoted to
+                            stopping the world's most dangerous criminals.</p>
+                        <span class="badge badge-pill badge-info">12:00pm</span>
+                        <span class="badge badge-pill badge-info">1:30pm</span>
+                        <span class="badge badge-pill badge-info">3:00pm</span>
+                        <span class="badge badge-pill badge-info">5:30pm</span>
+                        <span class="badge badge-pill badge-info">7:00pm</span>
+                        <span class="badge badge-pill badge-info">9:30pm</span>
+                    </div>
+                </div>
+                <div class="card"> <!--The following code has the same notes as the card above-->
+                    <img class="card-img-top" src="./images/beautyandthebeast.jpg" alt="Beauty and the Beast" height="250" width="500px">
+                    <div class="card-block">
+                        <h4 class="card-title">Beauty and the Beast</h4>
+                        <p>A selfish prince is cursed to become a monster for the rest of his life,
+                            unless he learns to fall in love with a woman he keeps as prisoner.</p> <br> <br>  
+                        <span class="badge badge-pill badge-info">12:00pm</span>
+                        <span class="badge badge-pill badge-info">1:30pm</span>
+                        <span class="badge badge-pill badge-info">3:00pm</span>
+                        <span class="badge badge-pill badge-info">5:30pm</span>
+                        <span class="badge badge-pill badge-info">7:00pm</span>
+                        <span class="badge badge-pill badge-info">9:30pm</span>
+                    </div>
+                </div>
+            </div>
+        <!-- /showtimes -->
+
+        <!--Carousel-->
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel"> <!--This creates a carousel-->
+            <div class="carousel-inner"> <!--This creates a place to put images in the carousel-->
+              <div class="carousel-item active"> <!--This designates the following images as items in the carousel, and sets it as the first-->
+                <img class="d-block w-100" src="./images/kongskullisland.jpg" alt="Kong Skull Island" height="600px" width="500px">
+              </div> <!--The above is an image for the carousel-->
+              <div class="carousel-item"> <!--This designates the following images as items in the carousel-->
+                <img class="d-block w-100" src="./images/ghostintheshell.jpg" alt="Ghost in the Shell" height="600px" width="500px">
+              </div> <!--The above is an image for the carousel-->
+              <div class="carousel-item"> <!--This designates the following images as items in the carousel-->
+                <img class="d-block w-100" src="./images/beautyandthebeast.jpg" alt="Beauty and the Beast" height="600px" width="500px">
+              </div> <!--The above is an image for the carousel-->
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a> <!--The above creates the previous carousel button-->
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a> <!--The above creates the next carousel button-->
+        </div>
+        <!--/Carousel-->
+
+        <!--Jumbotron heading -->
+        <div class="jumbotron jumbotron-fluid bg-info mt-5 text-center"> <!--This defines the jumbotron-->
+            <div class="container"> <!--This creates a container-->
+                <h1 class="display-4 hidden-sm-down" style="color:#fff;font-family:roboto;font-weight:900;text-transform:uppercase;">
+                Movie Deals</h1> <!--This creates the Movie Deals heading-->
+                <p class="lead">Check out our monthly deals...</p> <!--This adds the Check out our monthly deals text-->
+                <!--movie deals-->
+                <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#register">See our monthly movie deals!</button>
+                <!--/movie deals-->
+            </div>
+        </div>
+
+        <!--Deals-->
+        <div class="text-center"> <!--This ensures the following text is centered-->
+            <form>
+                <h1 id="Deals" class="text-primary my-5">Stay current on movies!</h1> 
+            <div class="form-group"> <!--This and the following create a form-->
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="Enter email">
+                    <button type="button" class="btn btn-secondary btn-info popover-dismiss" data-container="body" data-toggle="popover" data-placement="top" data-content="Submit your email to receive great movie reward deals.">
+                        Sign up! <!--This and the above create the sign up button-->
+                      </button>
+            </form>
+        </div>
+
+        <!--form modal-->
+        <div class="modal fade" id = "register"> <!--This and the following create the modal-->
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Register to receive movie deals</h5> <!--This creates the h5 text-->
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+
+                    <form>
+                        <fieldset class="form-group"> <!--The following are all forms for sign up, within the modal-->
+                            <label for="firstname">First Name:</label>
+                            <input type="text" class="from-control" id="firstname" placeholder="First Name...">
+                        </fieldset>
+                        <fieldset class="form-group">
+                            <label for="lastname">Last Name:</label>
+                            <input type="text" class="form-control" id="lastname" placeholder="Last Name...">
+                        </fieldset>
+                        <fieldset class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Email...">
+                        </fieldset>
+                        <fieldset class="form-group">
+                            <label form="password">Password:</label>
+                            <input type="password" class="form-control" id="password" placeholder="Password...">
+                        </fieldset>
+                    </form>
+
+                </div>
+                <div class="modal-footer"> <!--The following add buttons to close or save the modal-->
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--/form modal-->
+
+        <div class="container"> <!--The following is the footer elements-->
+            <ul class="nav nav-inline">
+                <li class="nav-item">
+                    <small><a class="nav-link active" href="#">Movie Rewards</a></small>
+                </li>
+                <li class="nav-item">
+                    <small><a class="nav-link" href="#">Movie@news.org</a></small>
+                </li>
+                <li class="nav-item">
+                    <small><a class="nav-link" href="#">Info@academycinemas.com</a></small>
+                </li>
+                <li class="nav-item">
+                    <small class="nav-link" href="#">&copy;2019 Academy Cinemas&reg;</small>
+                </li>
+            </ul>
+        </div>
+        <!--/Deals-->
+
+    </div>
+
+    <!-- Optional JavaScript -->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS --> <!--The following is reference to jQuery-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+
+        <script>
+            $('.popover-dismiss').popover({ //This is script for the popover
+                trigger: 'focus'
+            })
+        </script>
+  </body>
+</body>
