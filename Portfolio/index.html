@@ -5,6 +5,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width" />
         <title>Eric Tashji Porfolio</title>
+        <link rel="shortcut icon" type="img/jpg" href="images/coding_icon.png">
         <link rel="stylesheet" type="text/css" href="stylesheets/CSS.css">
     </head>
 
@@ -14,21 +15,17 @@
         <!--Navbar-->
         <div class="Navbar">
             <a class="active" href="#Home">Home</a>
+            <a href="#Slideshow">Slideshow</a>
             <a href="#About">About</a>
             <a href="#GitHub">GitHub</a>
-            <a href="#Contact">Contact</a>
+            <a onclick="openForm()" ondbclick="closeForm()" class="contact">Contact</a>
         </div>
-
-        <!--Navbar Breaks-->
-        <br>
-        <br>
 
         <!--Home-->
         <div id="Home">
             <!--Background Video-->
             <video autoplay muted loop id="Coding_Video">
-                <source src="./videos/coding.mp4">
-                
+                <source src="./videos/coding.mp4">        
                 <!--Error Display Message-->
                 Your browser does not support HTML5 videos.
             </video>
@@ -51,6 +48,54 @@
                 </p>
             </strong>
         </div>
+
+        <!--Slideshow section added -->
+        <div id="Slideshow">
+            <div id="Slideshow_Background">
+                <div id="Slideshow_Container">
+                    <!-- Slide 1 of 6 -->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="images/personal_pic.jpg" alt="Picture of me!">
+                        <div class="text">I'm always ready to assist you on your project!</div>
+                    </div>
+                    <!-- Slide 2 of 6 -->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="images/js_html_css.jpg" alt="JavaScript, HTML, and CSS">
+                        <div class="text">I am fully trained in: HTML, CSS, and JavaScript.</div>
+                    </div>
+                    <!-- Slide 3 of 6 -->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="images/Python.png" alt="Python">
+                        <div class="text">I am also trained in Python, </div>
+                    </div>
+                    <!-- Slide 4 of 6 -->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="images/c-sharp-dot-net.png">
+                        <div class="test">as well as C# and .NET, </div>
+                    </div>
+                    <!-- Slide 5 of 6 -->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="images/sql_and_database.jpg">
+                        <div class="test">along with databases, and SQL.</div>
+                    </div>
+                    <!-- Slide 6 of 6 -->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="images/coding.png">
+                        <div class="test">Feel free to contact me!</div>
+                    </div>
+                    <br><!-- Adds a space between the slideshow images and the dots -->
+
+                    <!-- Slideshow dots (these are another way for users to navigate through the slideshow) -->
+                    <div style="text-align: center">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                        <span class="dot" onclick="currentSlide(4)"></span>
+                        <span class="dot" onclick="currentSlide(5)"></span>
+                        <span class="dot" onclick="currentSlide(6)"></span>
+                    </div>
+                </div>
+            </div>
         
         <!--About-->
         <div class="Row" id="About">
@@ -64,9 +109,9 @@
                 <p>
                     I am a software developer, and I love coding! I am also a former music teacher and video game enthusiast!
                     <br>
-                    <br>I am a graduate of <a href="https://www.learncodinganywhere.com" targe="_blank">The Tech Academy's</a> C# and .NET Framework Boot Camp, and am trained and experienced in the following web and programming languages: HTML, CSS, Javascript, SQL, C#, and more. 
+                    <br>I am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy's</a> C# and .NET Framework Boot Camp, and am trained and experienced in the following web and programming languages: HTML, CSS, Javascript, SQL, C#, and more. 
                     <br>
-                    <br>I am a junior level developer and would love to work with you on your project. <a href="#Contact">Contact</a> me below!
+                    <br>I am a junior level developer and would love to work with you on your project. <a onclick="openForm()" class="contact">Contact</a> me below!
                 </p>
             </div>
         </div>
@@ -89,35 +134,29 @@
         </div>
 
         <!--Contact-->
-        <div class="Row" id="Contact">
-            <!--Contact image, left column-->
-            <div class="Column_2 Column_tall">
-                <img src="./images/contactme.png" alt="Contact_Me">
-            </div>
-            <!--Contact form, right column-->
-            <div class="Column_1 Column_tall">
-                <h1>Contact</h1>
-                <!--This specifies where and how to send the form data, so we're leaving it blank-->
-                <form action="" method="POST">
-                    <label>Name</label>
-                        <input type="text" id="Email" name="Message" placeholder="Name">
-                    <label>Company</label>
-                        <input type="text" id="Email" name="Message" placeholder="Company">
-                    <label>Email</label>
-                        <input type="text" id="Email" name="Message" placeholder="Email">
-                    <label>Phone Number</label>
-                        <input type="text" id="Email" name="Message" placeholder="Phone Number">
-                        <input type="submit" value="SUBMIT">
-                </form>
+        <div id = "Contact">
+            <button onclick="openForm()" class="Pop_Up_Button">CONTACT</button>
+            <div class="form-popup" id="myForm">
+               <form action="https://formspree.io/info@learncodinganywhere.com" method="POST" class="form-container">
+                    <h1>Contact</h1>
+                    <label for="name"><b>Name</b></label>
+                        <input type="text" placeholder="Please type your name here" name="name" required>
+                    <label for="company"><b>Company</b></label>
+                        <input type="text" placeholder="Please type your company name here" name="company">
+                    <label for="email"><b>Email</b></label>
+                        <input type="text" placeholder="Please type your email address here" name="email" required>
+                    <label for="phone"><b>Phone</b></label>
+                        <input type="text" placeholder="Please type your phone number here" name="phone">
+                    
+                    <button type="submit" class="btn">SUBMIT</button>
+                    <button type="button" class="btn cancel" onclick="closeForm()">CLOSE</button>
+               </form>
             </div>
         </div>
-
         <!--Footer-->
         <footer>
-            <p>
-                <p class="center">&copy Prosper Consulting Inc., <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a></p>
-                <br>
-            </p>
+                <p class="center">&copy Prosper Consulting Inc., <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a></p><br>
         </footer>
+        <script src="JS/portfolio.js"></script>
     </body>
 </html>
