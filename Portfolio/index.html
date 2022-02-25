@@ -52,39 +52,47 @@
         <!--Slideshow section added -->
         <div id="Slideshow">
             <div id="Slideshow_Background">
-                <div id="Slideshow_Container">
-                    <!-- Slide 1 of 6 -->
+                <div id="slideshow-container">
+                    <!-- Slide 1 of 6-->
                     <div class="mySlides fade">
-                        <img class="Slideshow_Images" src="images/personal_pic.jpg" alt="Picture of me!">
+                        <div class="numbertext">1 / 6</div>
+                        <img src="images/personal_pic.jpg" style="height:500px; width: 500px;">
                         <div class="text">I'm always ready to assist you on your project!</div>
                     </div>
-                    <!-- Slide 2 of 6 -->
+                    <!-- Slide 2 of 6-->
                     <div class="mySlides fade">
-                        <img class="Slideshow_Images" src="images/js_html_css.jpg" alt="JavaScript, HTML, and CSS">
+                        <div class="numbertext">2 / 6</div>
+                        <img src="images/js_html_css.jpg" style="height:500px; width: 500px;">
                         <div class="text">I am fully trained in: HTML, CSS, and JavaScript.</div>
                     </div>
                     <!-- Slide 3 of 6 -->
                     <div class="mySlides fade">
-                        <img class="Slideshow_Images" src="images/Python.png" alt="Python">
+                        <div class="numbertext">3 / 6</div>
+                        <img src="images/Python.png" style="height:500px; width: 500px;">
                         <div class="text">I am also trained in Python, </div>
                     </div>
                     <!-- Slide 4 of 6 -->
                     <div class="mySlides fade">
-                        <img class="Slideshow_Images" src="images/c-sharp-dot-net.png">
-                        <div class="test">as well as C# and .NET, </div>
+                        <div class="numbertext">4 / 6</div>
+                        <img src="images/c-sharp-dot-net.png" style="height:500px; width: 500px;">
+                        <div class="text">as well as C# and .NET, </div>
                     </div>
                     <!-- Slide 5 of 6 -->
                     <div class="mySlides fade">
-                        <img class="Slideshow_Images" src="images/sql_and_database.jpg">
-                        <div class="test">along with databases, and SQL.</div>
+                        <div class="numbertext">5 / 6</div>
+                        <img src="images/sql_and_database.jpg" style="height:500px; width: 500px;">
+                        <div class="text">along with databases, and SQL.</div>
                     </div>
                     <!-- Slide 6 of 6 -->
                     <div class="mySlides fade">
-                        <img class="Slideshow_Images" src="images/coding.png">
-                        <div class="test">Feel free to contact me!</div>
+                        <div class="numbertext">6 / 6</div>
+                        <img src="images/coding.png" style="height:500px; width: 500px;">
+                        <div class="text">Feel free to contact me!</div>
                     </div>
-                    <br><!-- Adds a space between the slideshow images and the dots -->
-
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                    <br>
                     <!-- Slideshow dots (these are another way for users to navigate through the slideshow) -->
                     <div style="text-align: center">
                         <span class="dot" onclick="currentSlide(1)"></span>
@@ -94,9 +102,9 @@
                         <span class="dot" onclick="currentSlide(5)"></span>
                         <span class="dot" onclick="currentSlide(6)"></span>
                     </div>
-                </div>
+
             </div>
-        
+        </div>
         <!--About-->
         <div class="Row" id="About">
             <!--Left Column-->
