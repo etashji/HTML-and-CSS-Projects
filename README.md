@@ -72,8 +72,17 @@ Here is a list of the projects and descriptions of each project in this reposito
 ## Portfolio
   ### Images
     * GitHub-logo.jpg: the GitHub logo
+    * Python.png: the Python logo
+    * c-sharp-dot-net.png: C# and .NET logo
+    * coding.png: coding image
+    * coding_icon.png: coding icon
     * coding_image.jpg: an image of coding
     * contactme.png: a "contact me" image.
+    * js_html_css.jpg: JavaScript, html, and CSS pic
+    * personal_pic.jpg: Personal pic of me
+    * sql_and_databse.jpg: SQL and Database pic
+  ### JS
+    * portfolio.js: JavaScript for the portfolio.
   ### Stylesheets
     * CSS.css: the CSS for index.html
   ### Videos
@@ -109,12 +118,12 @@ Here is a list of the projects and descriptions of each project in this reposito
    * photo-package.html: html with a lot of photos in it
    * index copy.html: a copy of an older version of index.html
    * index.html: the project's main index
-bootstrap4_project
-  images
-    beautyandthebeast.jpg: a picture of beauty and the beast
-    ghostintheshell.jpg: a picture of ghost in the shell
-    kongskullisland.jpg: kong skull island
-    pdx.jpg: picture of portland
-  academy_cinams.html: a website about academy cinemas
-  bootstrap_columns.html: a website that uses bootstrap columns
-README.md: this file
+## bootstrap4_project
+  ### images
+    * beautyandthebeast.jpg: a picture of beauty and the beast
+    * ghostintheshell.jpg: a picture of ghost in the shell
+    * kongskullisland.jpg: kong skull island
+    * pdx.jpg: picture of portland
+  * academy_cinams.html: a website about academy cinemas
+  * bootstrap_columns.html: a website that uses bootstrap columns
+## README.md: this file
